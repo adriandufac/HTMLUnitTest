@@ -11,7 +11,7 @@ public class Program {
 		// TODO Auto-generated method stub
 		try {
 			Tester tester = new Tester();
-			tester.submitForm(login, pw);
+			tester.submitFormAndGetUserPseudo(login, pw);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

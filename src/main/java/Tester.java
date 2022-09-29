@@ -30,7 +30,7 @@ public class Tester {
 	}
 	
 	
-	public  void submitForm(String email,String password) throws IOException {
+	public  void submitFormAndGetUserPseudo(String email,String password) throws IOException {
 
 		System.out.println("adresse de la page avant connexion");
 		System.out.println(this.page.toString());
